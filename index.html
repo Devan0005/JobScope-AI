@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobScope AI - Your Privacy-First AI Career Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Simple Gradient Background -->
+    <div class="gradient-background"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-letter">C</div>
+                <span class="logo-text">ognizant</span>
+                <span class="logo-tagline">Careers</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#careers" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="#culture" class="nav-link">Culture</a></li>
+                <li class="nav-item"><a href="#benefits" class="nav-link">Benefits</a></li>
+                <li class="nav-item"><a href="#privacy" class="nav-link">Privacy</a></li>
+                <li class="nav-item"><a href="#application" class="nav-link">Apply Now</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <button class="btn btn-primary">Apply Now</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-pulse"></span>
+                    <span class="badge-text">🚀 Meet JobScope AI</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Your Intelligent</span>
+                    <span class="title-line highlight">Career Companion</span>
+                    <span class="title-line subtitle">Powered by Advanced AI</span>
+                </h1>
+                <p class="hero-description">
+                    🤖 <strong>AI Resume Analysis</strong> • 💬 <strong>Smart Job Matching</strong> • 🌍 <strong>Multi-Language Support</strong>
+                    <br>
+                    Transform your job search with our intelligent assistant that understands YOU, not just keywords.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15K+</div>
+                        <div class="stat-label">Resumes Analyzed</div>
+                        <div class="stat-icon">📄</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8.5K+</div>
+                        <div class="stat-label">Jobs Matched</div>
+                        <div class="stat-icon">🎯</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Success Rate</div>
+                        <div class="stat-icon">✨</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">12+</div>
+                        <div class="stat-label">Languages</div>
+                        <div class="stat-icon">🌍</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-glow" id="exploreJobsBtn">
+                        <span>🚀 Start Your AI Journey</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary btn-glass" id="learnMoreBtn">
+                        <span>🎬 Watch Demo</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polygon points="10,8 16,12 10,16 10,8"/>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <span class="trust-icon">🔒</span>
+                        <span>100% Secure</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">⚡</span>
+                        <span>Instant Results</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">🎯</span>
+                        <span>99% Accuracy</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-icon">🆓</span>
+                        <span>Free Forever</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <div class="card-icon ai-pulse">🤖</div>
+                        <h3>AI Brain</h3>
+                        <p>Processing Your Profile</p>
+                        <div class="card-status">
+                            <span class="status-dot"></span>
+                            <span>AI Active</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <div class="card-icon match-pulse">🎯</div>
+                        <h3>Smart Matching</h3>
+                        <p>Finding Perfect Jobs</p>
+                        <div class="match-counter">247 matches</div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <div class="card-icon chat-pulse">💬</div>
+                        <h3>AI Assistant</h3>
+                        <p>"I found 5 perfect matches!"</p>
+                        <button class="mini-btn" onclick="toggleChatbot()">Chat Now</button>
+                    </div>
+                </div>
+                
+                <div class="ai-avatar-simple">
+                    <div class="avatar-face">
+                        <div class="avatar-emoji">🤖</div>
+                    </div>
+                    <div class="speech-bubble">
+                        <p>Ready to find your dream job? 🚀</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JobScope AI Introduction Section -->
+    <section class="jobscope-intro-section">
+        <div class="container">
+            <div class="intro-header" data-aos="fade-up">
+                <div class="intro-badge">
+                    <span class="badge-icon">🤖</span>
+                    <span class="badge-text">Introducing JobScope AI</span>
+                </div>
+                <h2 class="intro-title">Your Personal Career Assistant</h2>
+                <p class="intro-subtitle">
+                    A chatbot-based career assistant built specifically for fresh graduates and career job seekers 
+                    who often find existing job platforms overwhelming or impersonal.
+                </p>
+            </div>
+
+            <div class="concept-overview" data-aos="fade-up" data-aos-delay="100">
+                <div class="concept-card">
+                    <div class="concept-icon">
+                        <div class="icon-circle">
+                            <span>💡</span>
+                        </div>
+                    </div>
+                    <div class="concept-content">
+                        <h3>Concept Overview</h3>
+                        <p>
+                            JobScope AI is designed to simplify the job search journey by offering a more personalized 
+                            and relatable experience. It acts like a <strong>career buddy</strong> that reads your resume and 
+                            recommends suitable job roles. It also breaks down job descriptions into easy-to-understand 
+                            language—either in plain English or in regional languages.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-grid" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="features-title">Key Features</h3>
+                <div class="features-container">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <div class="icon-bg resume-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                    <polyline points="14,2 14,8 20,8"/>
+                                    <line x1="16" y1="13" x2="8" y2="13"/>
+                                    <line x1="16" y1="17" x2="8" y2="17"/>
+                                    <polyline points="10,9 9,9 8,9"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Resume-Based Job Matching</h4>
+                        <p>The chatbot scans your resume and suggests relevant roles that truly match your skillset.</p>
+                        <div class="feature-demo">
+                            <button class="demo-btn" onclick="showResumeDemo()">
+                                <span>Try Demo</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <div class="icon-bg conversation-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                    <line x1="9" y1="9" x2="15" y2="9"/>
+                                    <line x1="9" y1="13" x2="15" y2="13"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Conversational Job Descriptions</h4>
+                        <p>Converts complex role descriptions into friendly, simplified explanations.</p>
+                        <div class="feature-demo">
+                            <button class="demo-btn" onclick="showConversationDemo()">
+                                <span>See Example</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <div class="icon-bg language-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                                    <path d="M2 12h20"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Language Flexibility</h4>
+                        <p>Supports both English and regional languages, making it accessible for regional users.</p>
+                        <div class="feature-demo">
+                            <button class="demo-btn" onclick="showLanguageDemo()">
+                                <span>Switch Language</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <div class="icon-bg goals-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v6l4 2"/>
+                                    <path d="M16 14a6 6 0 0 0-6-6"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <h4>Goal Tracking Tools</h4>
+                        <p>Optional features to help users track applications and set career goals.</p>
+                        <div class="feature-demo">
+                            <button class="demo-btn" onclick="showGoalsDemo()">
+                                <span>Track Goals</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="privacy-first-section" data-aos="fade-up" data-aos-delay="300">
+                <div class="privacy-header">
+                    <div class="privacy-shield">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3>Privacy-First Approach</h3>
+                    <p>Since we're handling sensitive user data like resumes and career interests, JobScope AI is built with privacy at its core:</p>
+                </div>
+
+                <div class="privacy-features">
+                    <div class="privacy-item">
+                        <div class="privacy-icon">🔐</div>
+                        <div class="privacy-content">
+                            <h4>Encrypted Resume Parsing</h4>
+                            <p>All resume scans happen securely, with no open access to raw data.</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-item">
+                        <div class="privacy-icon">✅</div>
+                        <div class="privacy-content">
+                            <h4>Consent-Driven System</h4>
+                            <p>The platform only processes or stores data after getting clear approval from the user.</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-item">
+                        <div class="privacy-icon">👁️</div>
+                        <div class="privacy-content">
+                            <h4>Transparency & Control</h4>
+                            <p>Users can view, download, or delete their own data anytime from their activity log.</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-item">
+                        <div class="privacy-icon">🚫</div>
+                        <div class="privacy-content">
+                            <h4>No Third-Party Sharing</h4>
+                            <p>Data will never be sold or shared with recruiters or advertisers.</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-item">
+                        <div class="privacy-icon">🥷</div>
+                        <div class="privacy-content">
+                            <h4>Anonymous Mode Available</h4>
+                            <p>First-time users can explore the tool without logging in or providing any personal information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h4>Ready to Start Your AI-Powered Career Journey?</h4>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="toggleChatbot()">
+                            <span>Try JobScope AI</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </button>
+                        <button class="btn btn-secondary" onclick="enableAnonymousMode(); toggleChatbot();">
+                            <span>Try Anonymously</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9.88 9.88a3 3 0 1 0 4.24 4.24"/>
+                                <path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68"/>
+                                <path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61"/>
+                                <line x1="2" y1="2" x2="22" y2="22"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inspirational Quotes Section -->
+    <section class="quotes-section">
+        <div class="container">
+            <div class="quotes-carousel" data-aos="fade-up">
+                <div class="quote-slide active">
+                    <div class="quote-content">
+                        <blockquote>
+                            "The future belongs to those who learn more skills and combine them in creative ways."
+                        </blockquote>
+                        <div class="quote-author">
+                            <div class="author-info">
+                                <h4>Robert Greene</h4>
+                                <span>Author & Strategist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-slide">
+                    <div class="quote-content">
+                        <blockquote>
+                            "Your career is the sum total of the value you create, the problems you solve, and the relationships you build."
+                        </blockquote>
+                        <div class="quote-author">
+                            <div class="author-info">
+                                <h4>Reid Hoffman</h4>
+                                <span>Founder, LinkedIn</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-slide">
+                    <div class="quote-content">
+                        <blockquote>
+                            "Success is not just about what you accomplish in your life, it's about what you inspire others to do."
+                        </blockquote>
+                        <div class="quote-author">
+                            <div class="author-info">
+                                <h4>Unknown</h4>
+                                <span>Career Wisdom</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-slide">
+                    <div class="quote-content">
+                        <blockquote>
+                            "Innovation distinguishes between a leader and a follower. At Cognizant, we lead digital transformation."
+                        </blockquote>
+                        <div class="quote-author">
+                            <div class="author-info">
+                                <h4>Tech Leadership</h4>
+                                <span>Cognizant Philosophy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quote-navigation">
+                <button class="quote-nav-btn prev" onclick="previousQuote()">‹</button>
+                <div class="quote-indicators">
+                    <span class="indicator active" onclick="showQuote(0)"></span>
+                    <span class="indicator" onclick="showQuote(1)"></span>
+                    <span class="indicator" onclick="showQuote(2)"></span>
+                    <span class="indicator" onclick="showQuote(3)"></span>
+                </div>
+                <button class="quote-nav-btn next" onclick="nextQuote()">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Cognizant?</h2>
+                <p class="section-description">Discover what makes us a leader in digital transformation</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="m2 17 10 5 10-5"/>
+                            <path d="m2 12 10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Global Leader</h3>
+                    <p>Fortune 500 company with a presence in over 40 countries, serving clients across industries.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3>Innovation First</h3>
+                    <p>Leading the way in AI, cloud computing, and digital transformation technologies.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Diverse Team</h3>
+                    <p>Join a diverse workforce of 350,000+ associates from different backgrounds and cultures.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="about-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Career Growth</h3>
+                    <p>Continuous learning opportunities and clear career progression paths for all associates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Opportunities Section -->
+    <section id="careers" class="careers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Career Opportunities</h2>
+                <p class="section-description">Find your perfect role across our diverse practice areas</p>
+            </div>
+            <div class="careers-grid">
+                <div class="career-card" data-aos="fade-up">
+                    <div class="career-header">
+                        <div class="career-icon tech-icon">💻</div>
+                        <h3>Technology</h3>
+                    </div>
+                    <ul class="career-roles">
+                        <li>Software Engineer</li>
+                        <li>Full Stack Developer</li>
+                        <li>DevOps Engineer</li>
+                        <li>Cloud Architect</li>
+                        <li>Cybersecurity Specialist</li>
+                    </ul>
+                    <button class="career-btn">View Openings</button>
+                </div>
+                <div class="career-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="career-header">
+                        <div class="career-icon ai-icon">🤖</div>
+                        <h3>AI & Data</h3>
+                    </div>
+                    <ul class="career-roles">
+                        <li>Data Scientist</li>
+                        <li>AI/ML Engineer</li>
+                        <li>Data Analyst</li>
+                        <li>AI Researcher</li>
+                        <li>Business Intelligence</li>
+                    </ul>
+                    <button class="career-btn">View Openings</button>
+                </div>
+                <div class="career-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="career-header">
+                        <div class="career-icon consulting-icon">📊</div>
+                        <h3>Consulting</h3>
+                    </div>
+                    <ul class="career-roles">
+                        <li>Business Analyst</li>
+                        <li>Strategy Consultant</li>
+                        <li>Digital Transformation</li>
+                        <li>Process Consultant</li>
+                        <li>Change Management</li>
+                    </ul>
+                    <button class="career-btn">View Openings</button>
+                </div>
+                <div class="career-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="career-header">
+                        <div class="career-icon design-icon">🎨</div>
+                        <h3>Design & UX</h3>
+                    </div>
+                    <ul class="career-roles">
+                        <li>UX Designer</li>
+                        <li>UI Designer</li>
+                        <li>Product Designer</li>
+                        <li>Design Researcher</li>
+                        <li>Creative Director</li>
+                    </ul>
+                    <button class="career-btn">View Openings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture" class="culture-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Culture</h2>
+                <p class="section-description">Experience a workplace that values diversity, innovation, and growth</p>
+            </div>
+            <div class="culture-content">
+                <div class="culture-visual" data-aos="fade-right">
+                    <div class="culture-image-placeholder">
+                        <div class="culture-stats">
+                            <div class="culture-stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-text">Employee Satisfaction</span>
+                            </div>
+                            <div class="culture-stat">
+                                <span class="stat-number">40+</span>
+                                <span class="stat-text">Nationalities</span>
+                            </div>
+                            <div class="culture-stat">
+                                <span class="stat-number">50%</span>
+                                <span class="stat-text">Women in Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="culture-text" data-aos="fade-left">
+                    <h3>Inclusive & Collaborative</h3>
+                    <p>At Cognizant, we believe that diverse perspectives drive innovation. Our inclusive culture empowers everyone to bring their authentic selves to work and contribute to meaningful solutions that transform businesses and lives.</p>
+                    <div class="culture-values">
+                        <div class="value-item">
+                            <span class="value-icon">🤝</span>
+                            <span class="value-text">Collaboration</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">🚀</span>
+                            <span class="value-text">Innovation</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">🌱</span>
+                            <span class="value-text">Growth</span>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">🎯</span>
+                            <span class="value-text">Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Benefits & Rewards</h2>
+                <p class="section-description">Comprehensive benefits designed to support your well-being and growth</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="fade-up">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Health & Wellness</h3>
+                    <p>Comprehensive medical, dental, and vision coverage plus wellness programs.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3>Learning & Development</h3>
+                    <p>Access to cutting-edge training programs and certifications to advance your career.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="m2 17 10 5 10-5"/>
+                            <path d="m2 12 10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Work-Life Balance</h3>
+                    <p>Flexible work arrangements, generous PTO, and family-friendly policies.</p>
+                </div>
+                <div class="benefit-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6"/>
+                            <path d="m21 12-6-6-6 6-6-6"/>
+                        </svg>
+                    </div>
+                    <h3>Financial Security</h3>
+                    <p>Competitive salary, performance bonuses, and retirement planning support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Application Section -->
+    <section id="application" class="application-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Find Your Perfect Role</h2>
+                <p class="section-description">Search and apply for positions that match your skills and interests</p>
+            </div>
+            
+            <!-- Job Search Interface -->
+            <div class="job-search-container" data-aos="fade-up">
+                <div class="search-filters">
+                    <div class="search-bar">
+                        <input type="text" id="jobSearchInput" placeholder="Search by job title, skills, or keywords..." class="search-input">
+                        <button class="search-btn" id="searchJobsBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="filter-options">
+                        <select id="locationFilter" class="filter-select">
+                            <option value="">All Locations</option>
+                            <option value="bangalore">Bangalore</option>
+                            <option value="chennai">Chennai</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="pune">Pune</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="usa">United States</option>
+                            <option value="uk">United Kingdom</option>
+                        </select>
+                        <select id="experienceFilter" class="filter-select">
+                            <option value="">Experience Level</option>
+                            <option value="entry">Entry Level (0-2 years)</option>
+                            <option value="mid">Mid Level (3-5 years)</option>
+                            <option value="senior">Senior Level (6-10 years)</option>
+                            <option value="lead">Lead Level (10+ years)</option>
+                        </select>
+                        <select id="categoryFilter" class="filter-select">
+                            <option value="">All Categories</option>
+                            <option value="technology">Technology</option>
+                            <option value="ai-data">AI & Data Science</option>
+                            <option value="consulting">Consulting</option>
+                            <option value="design">Design & UX</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Job Results -->
+            <div class="job-results" id="jobResults">
+                <div class="results-header">
+                    <span class="results-count">Showing <span id="resultsCount">12</span> opportunities</span>
+                    <div class="sort-options">
+                        <select id="sortBy" class="sort-select">
+                            <option value="relevance">Sort by Relevance</option>
+                            <option value="date">Most Recent</option>
+                            <option value="experience">Experience Level</option>
+                            <option value="location">Location</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Job Cards Grid -->
+                <div class="job-cards-grid" id="jobCardsGrid">
+                    <!-- Job cards will be dynamically generated -->
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button class="btn btn-secondary" id="loadMoreJobs">Load More Opportunities</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Modal -->
+    <div id="applicationModal" class="application-modal">
+        <div class="modal-content application-modal-content">
+            <div class="modal-header">
+                <h3 id="modalJobTitle">Software Engineer - Full Stack</h3>
+                <button class="modal-close" id="closeApplicationModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="application-steps">
+                    <div class="step-indicator">
+                        <div class="step active" data-step="1">
+                            <span class="step-number">1</span>
+                            <span class="step-label">Personal Info</span>
+                        </div>
+                        <div class="step" data-step="2">
+                            <span class="step-number">2</span>
+                            <span class="step-label">Experience</span>
+                        </div>
+                        <div class="step" data-step="3">
+                            <span class="step-number">3</span>
+                            <span class="step-label">Resume</span>
+                        </div>
+                        <div class="step" data-step="4">
+                            <span class="step-number">4</span>
+                            <span class="step-label">Review</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 1: Personal Information -->
+                    <div class="step-content active" id="step1">
+                        <h4>Personal Information</h4>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" required>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="address">Current Location</label>
+                                <input type="text" id="address" placeholder="City, State/Province, Country">
+                            </div>
+                            <div class="form-group">
+                                <label for="workAuth">Work Authorization</label>
+                                <select id="workAuth" required>
+                                    <option value="">Select authorization status</option>
+                                    <option value="citizen">Citizen</option>
+                                    <option value="permanent">Permanent Resident</option>
+                                    <option value="visa">Work Visa</option>
+                                    <option value="sponsorship">Require Sponsorship</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="availability">Availability</label>
+                                <select id="availability" required>
+                                    <option value="">When can you start?</option>
+                                    <option value="immediate">Immediately</option>
+                                    <option value="2weeks">2 Weeks</option>
+                                    <option value="1month">1 Month</option>
+                                    <option value="flexible">Flexible</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Experience -->
+                    <div class="step-content" id="step2">
+                        <h4>Professional Experience</h4>
+                        <div class="form-group">
+                            <label for="experience">Years of Experience *</label>
+                            <select id="experience" required>
+                                <option value="">Select experience level</option>
+                                <option value="0-1">0-1 years</option>
+                                <option value="2-3">2-3 years</option>
+                                <option value="4-5">4-5 years</option>
+                                <option value="6-8">6-8 years</option>
+                                <option value="9-12">9-12 years</option>
+                                <option value="12+">12+ years</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentRole">Current/Most Recent Role</label>
+                            <input type="text" id="currentRole" placeholder="e.g., Senior Software Engineer">
+                        </div>
+                        <div class="form-group">
+                            <label for="currentCompany">Current/Most Recent Company</label>
+                            <input type="text" id="currentCompany" placeholder="Company name">
+                        </div>
+                        <div class="form-group">
+                            <label for="skills">Key Skills (comma-separated)</label>
+                            <textarea id="skills" rows="3" placeholder="e.g., JavaScript, React, Node.js, AWS, Agile"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="achievements">Key Achievements</label>
+                            <textarea id="achievements" rows="4" placeholder="Describe your key professional achievements and impact..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="expectedSalary">Expected Salary (Optional)</label>
+                            <input type="text" id="expectedSalary" placeholder="e.g., $80,000 - $100,000">
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: Resume Upload -->
+                    <div class="step-content" id="step3">
+                        <h4>Resume & Documents</h4>
+                        <div class="upload-section">
+                            <div class="upload-area" id="resumeUpload">
+                                <div class="upload-icon">📄</div>
+                                <h5>Upload Your Resume</h5>
+                                <p>Drag and drop your resume here or click to browse</p>
+                                <p class="upload-note">Supported formats: PDF, DOC, DOCX (Max 5MB)</p>
+                                <input type="file" id="resumeFile" accept=".pdf,.doc,.docx" hidden>
+                                <button type="button" class="btn btn-secondary" onclick="document.getElementById('resumeFile').click()">
+                                    Choose File
+                                </button>
+                            </div>
+                            <div class="uploaded-files" id="uploadedFiles"></div>
+                        </div>
+                        
+                        <!-- AI Insights Section -->
+                        <div class="ai-insights-section" id="aiInsights" style="display: none;">
+                            <!-- AI insights will be populated dynamically -->
+                        </div>
+                        
+                        <div class="upload-section">
+                            <div class="upload-area" id="coverLetterUpload">
+                                <div class="upload-icon">📝</div>
+                                <h5>Cover Letter (Optional)</h5>
+                                <p>Upload a cover letter or write one below</p>
+                                <input type="file" id="coverLetterFile" accept=".pdf,.doc,.docx" hidden>
+                                <button type="button" class="btn btn-secondary" onclick="document.getElementById('coverLetterFile').click()">
+                                    Upload Cover Letter
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="coverLetterText">Or write your cover letter here:</label>
+                            <textarea id="coverLetterText" rows="6" placeholder="Write a brief cover letter explaining why you're interested in this role..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="portfolio">Portfolio/LinkedIn URL (Optional)</label>
+                            <input type="url" id="portfolio" placeholder="https://linkedin.com/in/yourprofile">
+                        </div>
+                    </div>
+                    
+                    <!-- Step 4: Review -->
+                    <div class="step-content" id="step4">
+                        <h4>Review Your Application</h4>
+                        <div class="application-review" id="applicationReview">
+                            <!-- Review content will be populated by JavaScript -->
+                        </div>
+                        
+                        <div class="consent-section">
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="termsConsent" required>
+                                <label for="termsConsent">
+                                    I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#" target="_blank">Privacy Policy</a>
+                                </label>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="marketingConsent">
+                                <label for="marketingConsent">
+                                    I would like to receive updates about similar job opportunities and Cognizant news
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" id="prevStepBtn" style="display: none;">Previous</button>
+                    <button class="btn btn-primary" id="nextStepBtn">Next</button>
+                    <button class="btn btn-primary" id="submitApplicationBtn" style="display: none;">Submit Application</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Chatbot -->
+    <div id="aiChatbot" class="ai-chatbot">
+        <div class="chatbot-header" id="chatbotHeader">
+            <div class="chatbot-avatar">
+                <div class="avatar-animation">
+                    <span class="avatar-emoji">🤖</span>
+                    <div class="pulse-ring"></div>
+                </div>
+            </div>
+            <div class="chatbot-info">
+                <h4>Cognizant AI Assistant</h4>
+                <span class="chatbot-status">Online • Ready to help</span>
+            </div>
+            <div class="chatbot-controls">
+                <button class="minimize-btn" id="minimizeChatbot">−</button>
+                <button class="close-btn" id="closeChatbot">×</button>
+            </div>
+        </div>
+        
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            Hi! I'm JobScope AI, your intelligent career assistant. I can help you with:
+                            <ul>
+                                <li>📄 <strong>Resume Analysis:</strong> Upload your resume for personalized job matching</li>
+                                <li>🎯 <strong>Smart Job Matching:</strong> Find roles that perfectly match your skills</li>
+                                <li>💬 <strong>Simple Explanations:</strong> Complex job descriptions made easy to understand</li>
+                                <li>🌍 <strong>Multi-Language Support:</strong> Chat in English or your regional language</li>
+                                <li>📈 <strong>Goal Tracking:</strong> Track applications and set career milestones</li>
+                                <li>🔒 <strong>Privacy-First:</strong> Your data is encrypted and never shared</li>
+                            </ul>
+                            <div class="language-selector">
+                                <span>Choose your language: </span>
+                                <button class="lang-btn active" data-lang="en">English</button>
+                                <button class="lang-btn" data-lang="hi">हिंदी</button>
+                                <button class="lang-btn" data-lang="ta">தமிழ்</button>
+                                <button class="lang-btn" data-lang="te">తెలుగు</button>
+                            </div>
+                            How can I assist you today?
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-upload-zone" id="resumeUploadZone" style="display: none;">
+                <div class="upload-header">
+                    <h4>📄 Upload Your Resume for Smart Job Matching</h4>
+                    <button class="close-upload" onclick="hideResumeUpload()">×</button>
+                </div>
+                <div class="upload-area-chat">
+                    <div class="upload-icon">📋</div>
+                    <p>Drag and drop your resume here or click to browse</p>
+                    <p class="upload-note">Supported: PDF, DOC, DOCX (Max 5MB) • 🔒 Encrypted & Private</p>
+                    <input type="file" id="resumeUploadChat" accept=".pdf,.doc,.docx" hidden>
+                    <button class="btn btn-primary" onclick="document.getElementById('resumeUploadChat').click()">
+                        Choose Resume File
+                    </button>
+                </div>
+                <div class="privacy-assurance">
+                    <div class="assurance-item">
+                        <span class="icon">🔐</span>
+                        <span>End-to-end encrypted processing</span>
+                    </div>
+                    <div class="assurance-item">
+                        <span class="icon">🚫</span>
+                        <span>Never shared with third parties</span>
+                    </div>
+                    <div class="assurance-item">
+                        <span class="icon">⏱️</span>
+                        <span>Auto-deleted after analysis</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quick-actions" id="quickActions">
+                <button class="quick-action-btn" data-action="resume">📄 Upload Resume</button>
+                <button class="quick-action-btn" data-action="jobs">🔍 Find Jobs</button>
+                <button class="quick-action-btn" data-action="goals">📈 Career Goals</button>
+                <button class="quick-action-btn" data-action="explain">� Explain Role</button>
+                <button class="quick-action-btn" data-action="privacy">🔒 Privacy Info</button>
+            </div>
+            
+            <div class="typing-indicator" id="typingIndicator" style="display: none;">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chatbot-input" id="chatbotInput">
+            <div class="input-container">
+                <input type="text" id="userMessage" placeholder="Type your message here..." maxlength="500">
+                <button class="send-button" id="sendMessage">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                    </svg>
+                </button>
+            </div>
+            <div class="input-footer">
+                <span class="character-count">0/500</span>
+                <span class="privacy-note">🔒 Your conversations are encrypted and private</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" id="chatbotToggle">
+        <div class="toggle-icon">
+            <span class="chat-icon">💬</span>
+            <span class="close-icon">×</span>
+        </div>
+        <div class="notification-badge" id="chatNotification">1</div>
+    </button>
+
+    <!-- Enhanced Privacy Section -->
+    <section id="privacy" class="enhanced-privacy-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="privacy-shield-icon">
+                    <div class="shield-animation">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="m9 12 2 2 4-4"/>
+                        </svg>
+                        <div class="shield-pulse"></div>
+                    </div>
+                </div>
+                <h2 class="section-title">Your Privacy is Our Foundation</h2>
+                <p class="section-description">We believe privacy is a fundamental right. Our AI-powered career platform is built with privacy-by-design principles.</p>
+            </div>
+
+            <!-- Privacy Controls Dashboard -->
+            <div class="privacy-controls-dashboard" data-aos="fade-up">
+                <h3>🛡️ Privacy Control Center</h3>
+                <div class="dashboard-grid">
+                    <div class="control-card">
+                        <div class="control-header">
+                            <span class="control-icon">👤</span>
+                            <h4>Personal Data</h4>
+                        </div>
+                        <div class="control-content">
+                            <p>Manage what personal information you share with us</p>
+                            <div class="toggle-switch" data-setting="personal-data">
+                                <input type="checkbox" id="personalData" checked>
+                                <label for="personalData"></label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="control-card">
+                        <div class="control-header">
+                            <span class="control-icon">🍪</span>
+                            <h4>Cookies & Tracking</h4>
+                        </div>
+                        <div class="control-content">
+                            <p>Control how we use cookies and tracking technologies</p>
+                            <div class="toggle-switch" data-setting="cookies">
+                                <input type="checkbox" id="cookiesTracking" checked>
+                                <label for="cookiesTracking"></label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="control-card">
+                        <div class="control-header">
+                            <span class="control-icon">📧</span>
+                            <h4>Marketing Communications</h4>
+                        </div>
+                        <div class="control-content">
+                            <p>Choose what communications you want to receive</p>
+                            <div class="toggle-switch" data-setting="marketing">
+                                <input type="checkbox" id="marketingComms">
+                                <label for="marketingComms"></label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="control-card">
+                        <div class="control-header">
+                            <span class="control-icon">🔍</span>
+                            <h4>AI Data Processing</h4>
+                        </div>
+                        <div class="control-content">
+                            <p>Control how our AI uses your data for recommendations</p>
+                            <div class="toggle-switch" data-setting="ai-processing">
+                                <input type="checkbox" id="aiProcessing" checked>
+                                <label for="aiProcessing"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Privacy Features Grid -->
+            <div class="privacy-features-grid">
+                <div class="privacy-card enhanced" data-aos="fade-up">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <circle cx="12" cy="16" r="1"/>
+                            <path d="m7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                        <div class="lock-animation"></div>
+                    </div>
+                    <h3>End-to-End Encryption</h3>
+                    <p>All your data is encrypted in transit and at rest using military-grade AES-256 encryption.</p>
+                    <div class="encryption-demo">
+                        <div class="data-flow">
+                            <span class="data-point">📄</span>
+                            <div class="encryption-line"></div>
+                            <span class="data-point">🔒</span>
+                            <div class="encryption-line"></div>
+                            <span class="data-point">☁️</span>
+                        </div>
+                        <div class="encryption-status">🟢 Active</div>
+                    </div>
+                </div>
+
+                <div class="privacy-card enhanced" data-aos="fade-up" data-aos-delay="100">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                        </svg>
+                    </div>
+                    <h3>GDPR & CCPA Compliant</h3>
+                    <p>Full compliance with global privacy regulations including GDPR, CCPA, and other data protection laws.</p>
+                    <div class="compliance-badges">
+                        <span class="badge">🇪🇺 GDPR</span>
+                        <span class="badge">🇺🇸 CCPA</span>
+                        <span class="badge">🌐 ISO 27001</span>
+                    </div>
+                </div>
+
+                <div class="privacy-card enhanced" data-aos="fade-up" data-aos-delay="200">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M9 12l2 2 4-4"/>
+                            <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
+                            <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
+                        </svg>
+                    </div>
+                    <h3>Granular Consent Management</h3>
+                    <p>You have complete control over what data we collect and how it's used. Change your mind anytime.</p>
+                    <div class="consent-controls">
+                        <button class="consent-btn" onclick="openPrivacySettings()">⚙️ Manage Preferences</button>
+                    </div>
+                </div>
+
+                <div class="privacy-card enhanced" data-aos="fade-up" data-aos-delay="300">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6"/>
+                            <path d="m21 12-6-6-6 6-6-6"/>
+                        </svg>
+                    </div>
+                    <h3>Zero Third-Party Sharing</h3>
+                    <p>Your personal data is never sold, rented, or shared with third parties without your explicit consent.</p>
+                    <div class="no-sharing-guarantee">
+                        <div class="guarantee-seal">🛡️ GUARANTEED</div>
+                    </div>
+                </div>
+
+                <div class="privacy-card enhanced" data-aos="fade-up" data-aos-delay="400">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Anonymous Browsing Mode</h3>
+                    <p>Explore job opportunities without creating an account or sharing personal information.</p>
+                    <div class="anonymous-mode">
+                        <button class="anonymous-btn" onclick="enableAnonymousMode()">
+                            <span class="ghost-icon">👻</span>
+                            <span>Browse Anonymously</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="privacy-card enhanced" data-aos="fade-up" data-aos-delay="500">
+                    <div class="privacy-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14,2 14,8 20,8"/>
+                        </svg>
+                    </div>
+                    <h3>Complete Data Transparency</h3>
+                    <p>Download, view, or permanently delete all your data at any time through your privacy dashboard.</p>
+                    <div class="data-controls">
+                        <button class="control-btn view-btn" onclick="viewMyData()">👁️ View Data</button>
+                        <button class="control-btn download-btn" onclick="downloadMyData()">📥 Download</button>
+                        <button class="control-btn delete-btn" onclick="deleteMyData()">🗑️ Delete All</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Privacy Section -->
+            <div class="ai-privacy-section" data-aos="fade-up" data-aos-delay="600">
+                <h3>🤖 AI & Privacy</h3>
+                <div class="ai-privacy-content">
+                    <div class="ai-privacy-text">
+                        <h4>How Our AI Protects Your Privacy</h4>
+                        <p>Our AI assistant uses advanced privacy-preserving techniques to help you while keeping your data secure:</p>
+                        <ul>
+                            <li><strong>On-Device Processing:</strong> Sensitive data is processed locally when possible</li>
+                            <li><strong>Differential Privacy:</strong> Statistical noise is added to protect individual privacy</li>
+                            <li><strong>Data Minimization:</strong> AI only accesses the minimum data needed for each task</li>
+                            <li><strong>Federated Learning:</strong> Models improve without centralizing personal data</li>
+                            <li><strong>Automatic Deletion:</strong> Conversation data is automatically deleted after 30 days</li>
+                        </ul>
+                    </div>
+                    <div class="ai-privacy-visual">
+                        <div class="ai-brain-privacy">
+                            <div class="brain-layers">
+                                <div class="layer encryption-layer">🔒</div>
+                                <div class="layer processing-layer">⚡</div>
+                                <div class="layer protection-layer">🛡️</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Privacy Promise -->
+            <div class="privacy-promise" data-aos="fade-up" data-aos-delay="700">
+                <div class="promise-content">
+                    <h3>Our Privacy Promise</h3>
+                    <p>We commit to being transparent about our data practices and putting your privacy first. Your career data belongs to you, and we're just here to help you make the most of it.</p>
+                    <div class="promise-points">
+                        <div class="promise-point">
+                            <span class="promise-icon">🔐</span>
+                            <span>Your data is encrypted and secure</span>
+                        </div>
+                        <div class="promise-point">
+                            <span class="promise-icon">🚫</span>
+                            <span>We never sell your personal information</span>
+                        </div>
+                        <div class="promise-point">
+                            <span class="promise-icon">⚖️</span>
+                            <span>You have full control over your data</span>
+                        </div>
+                        <div class="promise-point">
+                            <span class="promise-icon">🔍</span>
+                            <span>Complete transparency in our practices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Ready to Start Your Journey?</h2>
+                <p>Join thousands of talented professionals who are shaping the future of business with Cognizant.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary large" onclick="scrollToSection('#application')">Search Jobs</button>
+                    <button class="btn btn-secondary large" onclick="scrollToSection('#application')">Join Talent Network</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-text">Cognizant</span>
+                        <span class="logo-tagline">Careers</span>
+                    </div>
+                    <p>Engineering modern business to improve everyday life</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Careers</h4>
+                    <ul>
+                        <li><a href="#">Search Jobs</a></li>
+                        <li><a href="#">Career Areas</a></li>
+                        <li><a href="#">Campus Hiring</a></li>
+                        <li><a href="#">Referral Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Cognizant</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">News & Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cognizant Technology Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
